@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+### রিভিশন চেকলিস্ট
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+১. একটা CSS framework সিলেক্ট করো। যেটা দিয়ে আজকের প্রাকটিস করবে। সেটা হতে পারে react bootstrap বা হতে পারে material ui বা হতে পারে tailwind। যেটাই ভালো মনে হোক সেটা দিয়ে শুরু করলেই হবে। কারণ আজকের টা প্রাকটিস। আজকে ভালো করে করলে। সামনে কাজে লাগবে।
 
-## Available Scripts
+২. টুক করে search এর ফাংশনালিটি ইমপ্লিমেন্ট করে ফেলো। আজকের একমাত্র ভিডিওতে দেখানো হয়েছে। সেই অনুসারেই করে ফেলো। কি আছে জীবনে?
 
-In the project directory, you can run:
+৩. চেষ্টা করো দেখো। নিজে নিজে ওয়েবসাইট কে একটু Responsive করতে পারো কিনা। না পারলে টেনশন এর কিছু নাই। সামনে আমরা দেখিয়ে দিবো। তবে তারপরেও তুমি আজকে হালকা হলেও ট্রাই করে দেখো।
 
-### `yarn start`
+৪. সিম্পল কয়েকটা রাউট বসিয়ে দাও। app.js এ গিয়ে। restaurant নামে একটা রাউট ইমপ্লিমেন্ট করে ফেলো।
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+৫. not found বা 404 পেইজ টা ইমপ্লিমেন্ট করে ফেলো।
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+৬. মেইন url বা "/" এই রাউট ইমপ্লিমেন্ট করে ফেলো। এবং exact ইউজ করতে ভুলো না কিন্তু।
 
-### `yarn test`
+৭. একটা header কম্পোনেন্ট বানাও। সেখানে কিছু Link দাও। জেগুলাতে ক্লিক করলে বিভিন্ন রাউট এ যাবে। দেখবে লিংক এ ক্লিক করলে যেন পেইজ রিলোড না হয়।
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+৮. restaurant পেইজে প্রত্যেকটা কার্ডে দুইটা ইভেন্ট হ্যান্ডলার যোগ করো। দুই রকমের। প্রথমটা জাস্ট Link দিয়ে। আরেকটা Link এর মধ্যে বাটন দিয়ে। এই দুইটা তে ক্লিক করলে সে ওই মেন্যু এর আইডি অনুসারে ডাইনামিক একটা url তৈরি করবে। এবং সেটাতে ক্লিক করলে সে সেই url এ চলে যাবে। যদিও এখনো সেই রাউট এ যাওয়ার কম্পোনেন্ট বানাও নাই। তাও এইটা করে ফেলো।
 
-### `yarn build`
+৯. এইবার আবার app.js এ গিয়ে রাউট প্যারামিটার ওয়ালা একটা রাউট ডিক্লেয়ার করে ফেলো। সেখানে mealdb নামে একটা রাউট প্যারামিটার দিয়ে রাউট ডিক্লেয়ার করো।
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+১০. রাউট প্যারামিট ইউজ করার জন্য একটা কম্পোনেন্ট ডিক্লেয়ার করো। তারপর সেই রাউট এ গিয়ে useParams দিয়ে সেই রাউট প্যারামিট বের করো। এরপর ডাইনামিকভাবে mealdb এর api কল করে সেই ডাটা ওয়েবসাইট এ দেখাও।
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+১১. সবার লাস্টে। সব কার্ডে একটা করে বাটন যোগ করো। যেটাতে ক্লিক করলে useHistory হুক ইউজ করে। history তে পুশ করে
